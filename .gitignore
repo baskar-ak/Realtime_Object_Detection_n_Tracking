@@ -1,1 +1,8 @@
 .env
+data_object_image_2
+data_object_label_2
+data_tracking_image_2
+data_tracking_label_2
+yolo
+dataset
+runs
