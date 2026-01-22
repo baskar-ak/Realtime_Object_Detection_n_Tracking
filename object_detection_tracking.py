@@ -10,7 +10,7 @@ from deep_sort_realtime.deepsort_tracker import DeepSort
 model = YOLO('runs/detect/train/weights/best.pt')
 
 # TensorRT optimization
-# model.export(format='engine', half=True) # Convert YOLO model to TensorRT format (uncomment if needed)
+model.export(format='engine', half=True) # Convert YOLO model to TensorRT format (uncomment if needed)
 
 # Load YOLOv11 TensorRT optimized model
 model = YOLO('runs/detect/train/weights/best.engine')
