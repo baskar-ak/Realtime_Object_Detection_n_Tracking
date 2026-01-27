@@ -18,6 +18,8 @@ I use [YOLOv11 model](https://docs.ultralytics.com/models/yolo11/) for object de
 
 <img src="./images/img_input.png" width="500"> <img src="./images/video_input.gif" width="500">
 
+TensorRT YOLO average inference + tracking latency per frame: **0.0209s (47.80 FPS)**
+
 ### Files:
 * _prepare_dataset_:                 KITTI to YOLO format conversion. Split images into train and val sets.
 * _train_model_:                     Train yolo model.
